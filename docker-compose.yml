@@ -1,0 +1,7 @@
+version: '2'
+services:
+    socketio:
+        build: .
+        image: "revealjs-socketio"
+        ports:
+        - "1948:1948"
